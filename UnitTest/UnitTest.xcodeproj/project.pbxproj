@@ -424,6 +424,7 @@
 				GCC_PREFIX_HEADER = "UnitTest/UnitTest-Prefix.pch";
 				INFOPLIST_FILE = "UnitTestTests/UnitTestTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -441,6 +442,7 @@
 				GCC_PREFIX_HEADER = "UnitTest/UnitTest-Prefix.pch";
 				INFOPLIST_FILE = "UnitTestTests/UnitTestTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
